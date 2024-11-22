@@ -18,6 +18,8 @@ class AutomationPracticeFormTest
             // Wait for the page to load
             Thread.Sleep(3000);
 
+
+
             // Test 1: Name field
             var nameField = driver.FindElement(By.XPath("//input[@placeholder='Name']"));
             nameField.Clear();
